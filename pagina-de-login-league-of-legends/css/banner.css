@@ -1,0 +1,24 @@
+#container_banner {
+
+    width: 100%;
+
+}
+
+#fundo_banner {
+
+    background: url('../img/banner.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+@media (max-width: 1125px) {
+
+    #container_banner {
+
+        display: none;
+    
+    }
+
+}

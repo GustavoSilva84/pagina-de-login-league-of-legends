@@ -1,0 +1,219 @@
+#fundo_login {
+
+    width: 410px;
+    height: 100vh;
+    background: rgb(243, 243, 243);
+
+}
+
+#container_logo {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+#container_inputs {
+
+    margin-top: 30px;
+
+}
+
+#fundo_inputs {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#titulo_login {
+
+    margin: 0 0 30px 0;
+
+}
+
+.inputs_login {
+
+    font-weight: bold;
+    outline: 7px;
+    width: 69%;
+    padding: 17px;
+    border: none;
+    margin-bottom: 20px;
+    background: rgb(228, 228, 228);
+    border-radius: 8px;
+
+}
+
+#container_login_redes_sociais {
+
+    width: 100%;
+
+}
+
+#fundo_login_redes_sociais {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.button_redes_sociais {
+
+    margin: 5px;
+    width: 24%;
+    height: 34px;
+    border-radius: 5px;
+    border: none;
+   
+}
+
+#button_facebook {
+
+    background: #0000ff;
+    color: rgb(255, 255, 255);
+
+}
+
+#button_google {
+
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+
+}
+
+
+#button_apple {
+
+    background: #111111;
+    color: rgb(255, 255, 255);
+
+}
+
+#container_logar {
+
+    margin-top: 40px;
+
+}
+
+#fundo_logar {
+
+
+
+}
+
+#buttom_logar {
+
+    color: rgb(218, 218, 218);
+    border: 2px solid rgb(218, 218, 218);
+    background: none;
+    padding: 0;
+    width: 74px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 1.80em;
+
+}
+
+#buttom_logar:hover {
+
+    background: rgb(204, 1, 1);
+
+}
+
+
+#container_criar_conta {
+
+    margin-top: 20px;
+    cursor: pointer;
+    word-break: keep-all;
+
+}
+
+#fundo_criar_conta {
+
+
+
+}
+
+#fundo_criar_conta > h3 {
+
+    
+    margin: 0;
+    width: 220px;
+    text-align: center;
+    font-size: 0.72em;
+    font-weight: bold;
+    color:  rgb(174, 174, 174);
+
+}
+
+
+
+
+
+
+
+
+
+
+#fundo_logo {
+
+    margin-top: 40px;
+
+}
+
+#img_logo {
+
+    width: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1125px) {
+
+    #container_login {
+
+        width: 100%;
+
+    }
+
+    #fundo_login {
+
+        width: 100%;
+        height: 100vh;
+        background: rgb(240, 240, 240);
+    
+    }
+
+    #fundo_logo {
+
+        margin-top: 60px;
+    
+    }
+    
+    #img_logo {
+    
+        width: 40px;
+    
+    }
+
+    .button_redes_sociais {
+
+        margin: 5px;
+        width: 22%;
+       
+    }
+
+}
